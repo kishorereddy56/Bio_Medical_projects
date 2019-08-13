@@ -12,8 +12,8 @@ from keras.optimizers import Adagrad
 from keras.utils import np_utils
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-from pyimagesearch.cancernet import CancerNet
-from pyimagesearch import config
+from cancernet import CancerNet
+import config
 from imutils import paths
 import matplotlib.pyplot as plt
 import numpy as np
